@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score,roc_auc_score
 
-df = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\applied machine learning\to do\A4\diabetes+130-us+hospitals+for+years+1999-2008\diabetic_data.csv")
+df = pd.read_csv(r"archive\diabetic_data.csv")
 
 #CLEANING
 #REPLACE
