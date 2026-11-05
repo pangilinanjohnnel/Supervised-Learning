@@ -5,7 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import LinearSVC
 from sklearn import metrics
 
-df=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\D5.1\archive\train.csv")
+df=pd.read_csv(r"archive\movie_review_train.csv")
 
 X=df["text"]
 y=df["label"]
