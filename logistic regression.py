@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression, LogisticRegressionCV
 from sklearn.metrics import confusion_matrix,classification_report, roc_curve,auc,roc_auc_score
 
-df=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\applied machine learning\A3\archive\Social_Network_Ads.csv")
+df=pd.read_csv(r"archive\Social_Network_Ads.csv")
 
 df['Gender'] = df['Gender'].map({'Male': 1, 'Female': 0})
 
